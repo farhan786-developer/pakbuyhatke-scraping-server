@@ -15,7 +15,7 @@ app = Flask(__name__)
 CORS(app)
 
 # AI Server URL
-AI_SERVER_URL = os.environ.get('AI_SERVER_URL', 'http://localhost:5000')
+AI_SERVER_URL = os.environ.get('AI_SERVER_URL', 'pakbuyhatke-ai-server-production.up.railway.app')
 
 # User agents for anti-detection
 USER_AGENTS = [
